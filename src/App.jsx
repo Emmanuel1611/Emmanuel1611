@@ -1,87 +1,145 @@
-import React from "react";
+import React from 'react'
 
-export default function App() {
-  const name = "Emmanuel";
-  const handle = "Emmanuel1611";
-  const role = "Software Engineer • Backend & DevTools";
-  const highlights = [
-    "APIs · Observability · Automation",
-    "Node.js · TypeScript · Postgres",
-    "CI/CD · Developer Experience"
-  ];
-  const projects = [
-    { name: "Project A", url: "#", desc: "Scalable API platform" },
-    { name: "Project B", url: "#", desc: "CLI & GitHub Actions" },
-    { name: "Project C", url: "#", desc: "End-to-end TypeScript app" }
-  ];
+function App() {
+  // Configuration - customize these values
+  const config = {
+    name: "Emmanuel",
+    handle: "@Emmanuel1611",
+    role: "Software Engineer & Product Builder",
+    subtitle: "Building scalable systems and delightful developer experiences",
+    skills: [
+      "React", "Node.js", "Python", "TypeScript", 
+      "AWS", "Docker", "PostgreSQL", "GraphQL"
+    ],
+    stats: {
+      repositories: "50+",
+      contributions: "1,200+",
+      followers: "150+",
+      experience: "5+ Years"
+    }
+  }
+
+  const currentYear = new Date().getFullYear()
+  const currentDate = new Date().toLocaleDateString('en-US', { 
+    month: 'long', 
+    day: 'numeric', 
+    year: 'numeric' 
+  })
 
   return (
-    <div className="w-[1200px] h-[540px] p-10 box-border flex items-center justify-center">
-      <div className="w-full h-full rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 shadow-2xl ring-1 ring-white/5 p-10 flex gap-8">
-        <div className="w-1/3 flex flex-col items-start gap-6">
-          <div className="flex items-center gap-4">
-            <div className="w-28 h-28 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-3xl font-semibold text-white">
-              {/* intentionally empty — no avatar as requested */}
+    <div className="min-h-screen bg-gradient-to-br from-github via-gray-900 to-card p-8">
+      <div className="max-w-6xl mx-auto">
+        {/* Main Banner Card */}
+        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 p-1">
+          <div className="relative bg-gradient-to-br from-github to-card rounded-xl p-8">
+            
+            {/* Animated Background Elements */}
+            <div className="absolute inset-0 overflow-hidden">
+              <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/20 rounded-full mix-blend-multiply filter blur-xl animate-float"></div>
+              <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-accent/20 rounded-full mix-blend-multiply filter blur-xl animate-float" style={{animationDelay: '2s'}}></div>
             </div>
-            <div>
-              <div className="text-white text-2xl font-bold">{name}</div>
-              <div className="text-slate-300">@{handle}</div>
-              <div className="mt-3 inline-flex items-center gap-2 text-[13px] text-slate-300 bg-white/3 px-3 py-1 rounded-full">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 2v6" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                {role}
+
+            {/* Header Section */}
+            <div className="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between mb-8">
+              <div className="flex-1">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center text-2xl font-bold text-white shadow-lg">
+                    {config.name.charAt(0)}
+                  </div>
+                  <div>
+                    <h1 className="text-4xl lg:text-5xl font-bold text-white mb-2">
+                      {config.name}
+                    </h1>
+                    <p className="text-primary/80 text-lg font-mono">{config.handle}</p>
+                  </div>
+                </div>
+                
+                <h2 className="text-2xl lg:text-3xl font-semibold gradient-text mb-3">
+                  {config.role}
+                </h2>
+                
+                <p className="text-gray-300 text-lg max-w-2xl leading-relaxed">
+                  {config.subtitle}
+                </p>
+              </div>
+
+              {/* Stats Grid */}
+              <div className="grid grid-cols-2 gap-4 mt-6 lg:mt-0">
+                {Object.entries(config.stats).map(([key, value]) => (
+                  <div key={key} className="glass-effect rounded-xl p-4 text-center">
+                    <div className="text-2xl font-bold text-white mb-1">{value}</div>
+                    <div className="text-sm text-gray-400 capitalize">{key.replace(/([A-Z])/g, ' $1')}</div>
+                  </div>
+                ))}
               </div>
             </div>
-          </div>
 
-          <div className="text-slate-300 space-y-2">
-            {highlights.map((h, i) => (
-              <div key={i} className="flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-primary inline-block" />
-                <span>{h}</span>
+            {/* Skills Section */}
+            <div className="relative z-10 mb-8">
+              <h3 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
+                Technologies & Tools
+              </h3>
+              <div className="flex flex-wrap gap-3">
+                {config.skills.map((skill, index) => (
+                  <span key={skill} className="tech-badge" style={{animationDelay: `${index * 0.1}s`}}>
+                    {skill}
+                  </span>
+                ))}
               </div>
-            ))}
-          </div>
-
-          <div className="mt-auto w-full">
-            <div className="text-slate-400 text-sm mb-2">Featured</div>
-            <div className="grid grid-cols-1 gap-2">
-              {projects.map((p, i) => (
-                <a key={i} href={p.url} className="block bg-white/3 p-3 rounded-md hover:bg-white/5 transition">
-                  <div className="text-white font-medium">{p.name}</div>
-                  <div className="text-slate-300 text-sm">{p.desc}</div>
-                </a>
-              ))}
             </div>
-          </div>
-        </div>
 
-        <div className="flex-1 flex flex-col justify-between">
-          <div className="flex justify-between items-start">
-            <div className="text-slate-400">Welcome —</div>
-            <div className="flex items-center gap-3">
-              <img src="https://github-readme-stats.vercel.app/api?username=Emmanuel1611&show_icons=true&hide_border=true&theme=dark" alt="stats" className="h-20"/>
-            </div>
-          </div>
-
-          <div className="flex-1 flex items-center justify-center">
-            <div className="w-full h-[260px] rounded-xl bg-gradient-to-br from-[#071233]/60 to-[#081022]/60 border border-white/5 p-8 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-4xl font-extrabold text-white">I build reliable systems</div>
-                <div className="mt-4 text-slate-300 max-w-xl mx-auto">{`I ship pragmatic, well-tested backend systems and developer tooling that scale.`}</div>
-                <div className="mt-6 flex items-center justify-center gap-4">
-                  <a className="px-4 py-2 bg-primary text-slate-900 rounded-md font-semibold" href="#">Work with me</a>
-                  <a className="px-4 py-2 border border-white/10 text-slate-300 rounded-md" href="#">See projects</a>
+            {/* Footer */}
+            <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between pt-6 border-t border-gray-700/50">
+              <div className="flex items-center gap-6 mb-4 sm:mb-0">
+                <div className="flex items-center gap-2 text-gray-400">
+                  <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                  <span className="text-sm">Available for opportunities</span>
+                </div>
+                <div className="text-gray-500 text-sm">
+                  Last updated: {currentDate}
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-4">
+                <span className="text-gray-400 text-sm">© {currentYear} {config.name}</span>
+                <div className="flex items-center gap-2">
+                  <span className="text-gray-500 text-sm">Built with</span>
+                  <span className="text-primary font-medium text-sm">React</span>
+                  <span className="text-gray-500">+</span>
+                  <span className="text-accent font-medium text-sm">Tailwind</span>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="flex justify-between items-center text-slate-400 text-sm">
-            <div>Based: Remote</div>
-            <div>Open to: contract, mentoring, collaboration</div>
+        {/* Additional Info Cards */}
+        <div className="grid md:grid-cols-3 gap-6 mt-8">
+          <div className="glass-effect rounded-xl p-6 bg-gradient-to-br from-primary/5 to-transparent">
+            <h4 className="text-white font-semibold mb-3">🚀 Current Focus</h4>
+            <p className="text-gray-300 text-sm">
+              Building scalable microservices and exploring AI/ML integrations
+            </p>
+          </div>
+          
+          <div className="glass-effect rounded-xl p-6 bg-gradient-to-br from-accent/5 to-transparent">
+            <h4 className="text-white font-semibold mb-3">💡 Latest Project</h4>
+            <p className="text-gray-300 text-sm">
+              Dynamic GitHub profile banner generator with automated deployment
+            </p>
+          </div>
+          
+          <div className="glass-effect rounded-xl p-6 bg-gradient-to-br from-emerald-500/5 to-transparent">
+            <h4 className="text-white font-semibold mb-3">🎯 Goals 2025</h4>
+            <p className="text-gray-300 text-sm">
+              Contributing to open source and mentoring junior developers
+            </p>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
+
+export default App

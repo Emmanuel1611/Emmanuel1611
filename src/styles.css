@@ -1,10 +1,53 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-html, body, #root {
-  height: 100%;
-  margin: 0;
-  background: linear-gradient(135deg, #0f172a 0%, #071126 100%);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-sm bg-white/10 border border-white/20;
+  }
+  
+  .tech-badge {
+    @apply px-3 py-1 bg-gradient-to-r from-primary/20 to-accent/20 
+           border border-primary/30 rounded-full text-sm font-medium
+           text-white/90 backdrop-blur-sm transition-all duration-300
+           hover:from-primary/30 hover:to-accent/30 hover:border-primary/50;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161b22;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #484f58;
 }
