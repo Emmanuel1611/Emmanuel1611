@@ -7,7 +7,7 @@ I'm a passionate software developer dedicated to crafting innovative solutions a
 - 🔭 **Currently Working On:** Enterprise-level applications and open-source contributions
 - 🌱 **Learning Focus:** Cloud architecture, AI/ML integration, and advanced software design patterns
 - 💡 **Expertise:** Full-stack development, system design, and performance optimization
-- 📫 **Get In Touch:** [emmanuel@example.com](mailto:emmanuel@example.com)
+- 📫 **Get In Touch:** [emmanuel@example.com](mailto:muhindoemmanuel39@example.com)
 - ⚡ **Innovation Driver:** Transforming complex problems into elegant, scalable solutions
 
 ## 🛠️ Technology Stack
@@ -47,7 +47,7 @@ I'm a passionate software developer dedicated to crafting innovative solutions a
 ---
 
 <div align="center">
-    <img src="https://komarev.com/ghpvc/?username=Emmanuel1611-1&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views"/>
+    <img src="https://komarev.com/ghpvc/?username=Emmanuel1611&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views"/>
 </div>
 
 <div align="center">
