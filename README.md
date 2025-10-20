@@ -147,10 +147,6 @@ const emmanuel = {
 
 ---
 
-
-
----
-
 <div align="center">
   
 ### 💬 Let's Build Something Amazing Together!
@@ -163,7 +159,6 @@ const emmanuel = {
 
 <div align="center">
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
-  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
 </div>
 
 ---
