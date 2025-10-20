@@ -6,10 +6,10 @@ Welcome to my digital playground — where creativity meets code, and ideas evol
 
 I'm Emmanuel, a passionate **Software Developer**, lifelong learner, and tech enthusiast based in Uganda. I specialize in building scalable web applications, automating workflows, and exploring the intersection of software and human experience. My mission? To craft tools that empower people and solve real-world problems.
 
-- 🔭 Currently building: **[Your Current Project Name]** — a project that [brief description of what it does or solves].
+- 🔭 Currently building: **[Business Suite tools]** — a project that [has all your business tools].
 - 🌱 On a learning journey through: **Cloud Computing | DevOps | AI/ML | System Design**
 - 💬 Talk to me about: **JavaScript, Python, React, Node.js, APIs, Open Source, and Developer Productivity**
-- 📫 Reach out: **[your.email@example.com]**
+- 📫 Reach out: **[muhindoemmanuel39@gmail.com]**
 - ⚡ Fun fact: I once debugged a production issue using only coffee and intuition ☕🧠
 
 ---
@@ -63,21 +63,9 @@ I love meeting fellow developers, collaborators, and curious minds. Let's build 
 
 ---
 
-## ✍️ Blog & Insights
 
-I occasionally write about software development, productivity, and lessons learned from the trenches. Check out my latest posts:
-
-- [How I Built a Scalable API in Node.js](https://dev.to/emmanuel1611/how-i-built-a-scalable-api)
-- [5 Git Tips That Saved My Projects](https://dev.to/emmanuel1611/git-tips)
-- [Why I Love Open Source](https://dev.to/emmanuel1611/open-source-love)
-
----
 
 > “Code is like humor. When you have to explain it, it’s bad.” – Cory House  
 > “The best way to predict the future is to invent it.” – Alan Kay
 
----
 
-📌 **Tip:** To activate this profile README, create a repository named `emmanuel1611` and place this content in a file called `README.md`.
-
-Let me know if you'd like help writing project descriptions, adding badges, or integrating GitHub Actions. I can also help you design a personal logo or banner to make your profile pop!
