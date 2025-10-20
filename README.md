@@ -7,7 +7,7 @@ I'm a passionate software developer dedicated to crafting innovative solutions a
 - 🔭 **Currently Working On:** Enterprise-level applications and open-source contributions
 - 🌱 **Learning Focus:** Cloud architecture, AI/ML integration, and advanced software design patterns
 - 💡 **Expertise:** Full-stack development, system design, and performance optimization
-- 📫 **Get In Touch:** [emmanuel@example.com](mailto:muhindoemmanuel39@example.com)
+- 📫 **Get In Touch:** [muhindoemmanuel39@gmail.com.com](mailto:muhindoemmanuel39@gmail.com)
 - ⚡ **Innovation Driver:** Transforming complex problems into elegant, scalable solutions
 
 ## 🛠️ Technology Stack
