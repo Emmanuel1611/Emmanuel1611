@@ -27,11 +27,11 @@ I'm a passionate software developer dedicated to crafting innovative solutions a
 
 <div align="center">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Emmanuel1611&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuel1611-1&layout=compact&langs_count=8&theme=tokyonight"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuel1611&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
 <div align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Emmanuel1611 &theme=tokyonight" alt="Emmanuel's GitHub Streak"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Emmanuel1611&theme=tokyonight" alt="Emmanuel's GitHub Streak"/>
 </div>
 
 ## 🤝 Let's Connect
