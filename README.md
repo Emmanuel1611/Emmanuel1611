@@ -26,12 +26,12 @@ I'm a passionate software developer dedicated to crafting innovative solutions a
 ## 📊 GitHub Analytics
 
 <div align="center">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Emmanuel1611-1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Emmanuel1611&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuel1611-1&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
 <div align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Emmanuel1611-1&theme=tokyonight" alt="Emmanuel's GitHub Streak"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Emmanuel1611&theme=tokyonight" alt="Emmanuel's GitHub Streak"/>
 </div>
 
 ## 🤝 Let's Connect
@@ -40,7 +40,7 @@ I'm a passionate software developer dedicated to crafting innovative solutions a
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://your-portfolio.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emmanuel@example.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muhindoemma39@gmail.com)
 
 </div>
 
