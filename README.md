@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=3ABEF9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Full+Stack+Developer+%F0%9F%9A%80;Problem+Solver+%F0%9F%92%A1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=3ABEF9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Full+Stack+Developer+%F0%9F%9A%80;React+Expert+%F0%9F%92%A1" alt="Typing SVG" />
 </div>
 
 <p align="center">
@@ -20,9 +20,9 @@
 ```typescript
 const emmanuel = {
     location: "Kampala, Uganda 🇺🇬",
-    role: "Software Engineer & Solution Architect",
+    role: "Software Engineer & JavaScript Guy",
     currentFocus: [
-        "Building scalable enterprise applications",
+        "Building enterprise applications",
         "Contributing to open-source innovation",
         "Exploring AI/ML integrations (not great at it yet)"
     ],
@@ -34,7 +34,7 @@ const emmanuel = {
         devOps: ["Docker", "AWS", "CI/CD"],
         databases: ["PostgreSQL", "MongoDB", "Redis"]
     },
-    philosophy: "Transforming complex problems into solutions ✨"
+    philosophy: "Write code that survives change and inspires clarity. ✨"
 };
 ```
 
@@ -115,8 +115,12 @@ const emmanuel = {
 </div>
 
 <div align="center">
-  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuel1611&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3ABEF9&text_color=FFFFFF&langs_count=5" alt="Top Languages"/>
+  <img width="50%" 
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuel1611&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3ABEF9&text_color=FFFFFF&custom_title=Languages+in+Pinned+Repositories&langs_count=5&repo=cAjingo2000/cattleya-coffee,copilot,portfolio,CopilotKit" 
+  alt="Top Languages"/>
 </div>
+
+
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Emmanuel1611&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=3ABEF9&line=3ABEF9&point=FFFFFF" alt="Contribution Graph"/>
