@@ -115,7 +115,7 @@ const emmanuel = {
 </div>
 
 <div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuel1611&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3ABEF9&text_color=FFFFFF&langs_count=10" alt="Top Languages"/>
+  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuel1611&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3ABEF9&text_color=FFFFFF&langs_count=5" alt="Top Languages"/>
 </div>
 
 <div align="center">
