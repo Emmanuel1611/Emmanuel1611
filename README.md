@@ -1,56 +1,4 @@
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=30&duration=2500&pause=1000&color=3ABEF9&center=true&vCenter=true&width=800&height=70&lines=Emmanuel+Muhindo;Software+Engineer+%7C+UI%2FUX+Architect;Next.js+14+%7C+Cloud+%26+AI" alt="Typing SVG" />
-</div>
 
-
-<div align="center">
-  <a href="https://linkedin.com/in/emmanuelmuhindo39">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30" />
-  </a>
-  <a href="mailto:muhindoemmanuel39@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" />
-  </a>
-  <a href="https://portfolio-emmanuels-projects-a7ef425b.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" height="30" />
-  </a>
-</div>
-
-<br />
-
-
----
-
-### ⚡ `<UserProfile />`
-
-```tsx
-// app/page.tsx
-import { Developer, TechStack } from '@universe/god-mode';
-
-export default async function EmmanuelProfile() {
-  const currentState = {
-    status: "🚀 Accelerating",
-    focus: "Next.js 14 Server Actions & AI Agents",
-    coffee: true,
-  };
-
-  return (
-    <main className="flex flex-col gap-4">
-      <h1 className="text-4xl font-bold">Software Engineer & JS Specialist</h1>
-      <p>
-        "Writing code that survives change and inspires clarity." 
-        Based in Kampala, Uganda 🇺🇬
-      </p>
-      
-      {/* Core Loop */}
-      <CurrentMission 
-        learning={["System Design", "Rust", "LLM Fine-tuning"]}
-        building="Next-gen cloud-native solutions"
-      />
-    </main>
-  );
-}
-
-```
 
 <div align="center">
 
@@ -108,21 +56,6 @@ Commit Activity	Language Distribution
 </div>
 
 ---
-
-### 🛠 Career Roadmap & Milestones
-
-<div align="center">
-
-| **Phase** | **Focus** | **Highlights** |
-|-----------|-----------|----------------|
-| 🚀 Early Career | UI/UX Engineering | Built intuitive interfaces, honed design thinking, delivered user‑centric products |
-| ⚡ Growth | React & Frontend Mastery | 3+ years with React, optimized performance, scaled design systems |
-| 🌐 Expansion | Full‑Stack & Cloud | Node.js APIs, Python analytics, AWS infrastructure, CI/CD pipelines |
-| 🔮 Present | Next.js 14 & AI Agents | Exploring Server Actions, integrating LLMs, crafting cloud‑native AI solutions |
-| 🧭 Future | Systems & Emerging Tech | Rust for performance, advanced system design, AI fine‑tuning for real‑world apps |
-
-</div>
-
 
 <a href="mailto:muhindoemmanuel39@gmail.com"> <img src="https://img.shields.io/badge/SEND_EMAIL-000?style=for-the-badge&logo=gmail&logoColor=white&color=20232a" /> </a> <a href="https://linkedin.com/in/emmanuelmuhindo39"> <img src="https://img.shields.io/badge/CONNECT_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&color=0077b5" /> </a>
 
