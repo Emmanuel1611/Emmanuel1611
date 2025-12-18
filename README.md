@@ -42,24 +42,14 @@ skills/
 
 ```
 
-📊 Analytics Dashboard
 
 <div align="center">
 
 
-Commit Activity	Language Distribution
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Emmanuel1611&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=3ABEF9&line=3ABEF9&point=FFFFFF" width="100%" />	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuel1611&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=3ABEF9&text_color=FFFFFF&langs_count=6&repo=cAjingo2000/cattleya-coffee,copilot,portfolio,CopilotKit" width="100%" />
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Emmanuel1611&theme=react&hide_border=true&background=0D1117&stroke=3ABEF9&ring=3ABEF9&fire=3ABEF9&currStreakLabel=3ABEF9" width="90%" />
 
 </div>
 
 ---
-
-<a href="mailto:muhindoemmanuel39@gmail.com"> <img src="https://img.shields.io/badge/SEND_EMAIL-000?style=for-the-badge&logo=gmail&logoColor=white&color=20232a" /> </a> <a href="https://linkedin.com/in/emmanuelmuhindo39"> <img src="https://img.shields.io/badge/CONNECT_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&color=0077b5" /> </a>
-
-<br /><br />
 
 <i>"In a world of algorithms, be the one who writes poetry."</i> </div>
 
